@@ -1,0 +1,83 @@
+html {
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/44/Yankee_Stadium_upper_deck_2010.jpg');
+background-size: cover;
+}
+
+#banner {
+ height: 100%;
+font-family: 'pangolin',cursive;
+font-size:35px;
+display:flex;
+justify-content:center;
+color:#c12424;
+}
+#heading {
+  height:100%;
+  font-family: 'Montserrat', sans-serif;
+display:flex;
+justify-content: space-around;
+color:#0066CC;
+}
+
+.navbar a  {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   color:white;
+    font-family: 'Montserrat',sans-serif;
+}
+.navbar    {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    position: fixed; /* set the navbar to fixed position */
+    top:0; /* position the navbar at the top of the page */
+    left:0;
+    width: 100%; /* Full width */
+
+  
+}
+html{
+  height: 100%;
+  background-image:url('Yankee_Stadium_upper_deck_2010.jpg');
+  background-size: cover;
+}    
+#about-content{
+  display: flex;
+  justify-content: space-around;
+  margin-top:22%;
+}
+
+img {
+  border-radius: 50%;
+  border: soild 5px #9370DB;
+}
+
+.my-description{
+  background: white;
+  margin: 3%;
+  padding: 4%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.project-contanier{
+  margin-top:20%;
+  display:flex;
+  width:100%;
+  height:100%;
+  justify-content:space-between;
+}
+
+span{
+  background:#9370DB;
+  width:30%;
+  height:60%;
+  margin:2%;
+  padding:2%;
+  font-family:'Montserrat',sans-serif;
+  color:white;
+  align-items:center;
+
+}
